@@ -42,3 +42,11 @@ section#telefone {
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat;
 }
+iframe#tela {
+    /* colocando a imagem para ficar na tela do celular */
+    position: relative;
+    top: 80px;
+    left: 21px;
+    width: 269px;
+    height: 471.5px;
+}
