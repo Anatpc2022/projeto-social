@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    /* colocar altura total da tela */
+    height: 100vh;
+    /* colocar largura total da tela */
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    /* Colocando a imagem de fundo */
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
+    /* para a imagem adaptar na tela */
+    background-size: cover;
+    /* para a imagem ficar fixa */
+    background-attachment: fixed;
+}
+
+main {
+    /*coloca para poder manipular a imagem abaixo */
+    position: relative;
+    height: 100vh;
+}
+
+section#telefone {
+    /* com esse position consigo configurar top, left e transform */
+    position: absolute;
+    /* com esses 3 consigo por a imagem no meio da tela */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Aqui é o tamanho que a imagem vai ficar e a imagem */
+    height: 627px;
+    width: 311px;
+    background: url('../imagens/frame-iphone.png') no-repeat;
+}
