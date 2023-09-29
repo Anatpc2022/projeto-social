@@ -50,3 +50,28 @@ iframe#tela {
     width: 269px;
     height: 471.5px;
 }
+section#redes-sociais {
+    /* colocando as imagens na direita da tela */
+    text-align: right;
+}
+section#redes-sociais img {
+    /* diminuindo o tamanho das imagens */
+    width: 50px;
+    /* dando um espaço entre elas */
+    margin: 10px;
+    /* colocando a imagem para ficar redonda */
+    border-radius: 50%;
+    /* colocando uma sombra na imagem */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.600);
+    /* fazer com que a borda faça parte da imagem */
+    box-sizing: border-box;
+}
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.500);
+    /* fazer com que a imagem mexa  */
+    transform: translate(-3px, -3px);
+    /* fazer com que a sombra mexa tb */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    /* fazer com que a sombra mexa suave */
+    transition:transform .3s, border 1s;
+}
