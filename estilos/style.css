@@ -52,7 +52,7 @@ iframe#tela {
 }
 section#redes-sociais {
     /* colocando as imagens na direita da tela */
-    text-align: right;
+    text-align:center;
 }
 section#redes-sociais img {
     /* diminuindo o tamanho das imagens */
